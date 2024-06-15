@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>Manage Booking</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=B612%3A700"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C700"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arsenal%3A400%2C700"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Asap+Condensed%3A700"/>
+  <link rel="stylesheet" href="./styles/manage-booking.css"/>
+  <script>
+  function redirectToCourtBooking() {
+    // Retrieve the username from sessionStorage
+    var username = sessionStorage.getItem('username');
+
+    // Redirect to court-booking.php with the username parameter
+    window.location.href = "/court-booking.php?username=" + encodeURIComponent(username);
+  }
+</script>
+</head>
+<body>
+<div class="manage-booking-3gR">
+  <div class="navi-Bnd">
+    <div class="navi-Ktq">
+    </div>
+    <img class="image-1-4rR" src="./assets/image-1-SKw.png"/>
+    <div class="rectangle-2-CSq">
+    </div>
+    <div class="group-1-Xzu">
+      <a href="/home.html">
+      <div class="navigation-TtZ">HOME</div>
+      </a>
+      <a href="/court-booking.php?username=" + encodeURIComponent(sessionStorage.getItem('username'))">
+      <p class="court-booking-Zgh">COURT BOOKING</p>
+      </a>
+      <a href="/directory.html">
+      <div class="navigation-JPP">DIRECTORY</div>
+      </a>
+      <a href="/about-us.html">
+      <div class="navigation-pcd">ABOUT US</div>
+      </a>
+    </div>
+    <p class="booking-court-YYd">COURT BOOKING</p>
+  </div>
+  <img class="image-3-T9o" src="./assets/image-3-mUy.png"/>
+  <div class="auto-group-kfuq-NXf">
+    <div class="rectangle-4-u1o">
+    </div>
+    <div class="rectangle-5-dyP">
+    </div>
+    <p class="manage-booking-xEy">Manage Booking</p>
+    <a href="#" onclick="redirectToCourtBooking()" class="item--etV">&lt;</a>
+    <a href="#" onclick="redirectToCourtBooking()" class="cancel-VeD">CANCEL</a>
+    <div href="#" onclick="redirectToCourtBooking()" class="rectangle-22-aGM">
+    </div>
+    <a href="/uum-login1.html">
+    <div class="rectangle-23-1cZ">
+    </div>
+    <p class="login-now-jHf">LOGIN NOW</p>
+    </a>
+  </div>
+  <div class="footer-ddw">
+    <img class="footer-NLd" src="./assets/footer-c9K.png"/>
+    <div class="auto-group-zt21-u5f">
+      <p class="sports-centre-universiti-utara-malaysia-06010-sintok-kedah-darul-aman-malaysia-604-928-3560-3551-pusuruumedumy--SrH">
+        <span class="sports-centre-universiti-utara-malaysia-06010-sintok-kedah-darul-aman-malaysia-604-928-3560-3551-pusuruumedumy--SrH-sub-0">
+        SPORTS CENTRE
+        <br/>
+        Universiti Utara Malaysia
+        <br/>
+        
+        </span>
+        <span class="sports-centre-universiti-utara-malaysia-06010-sintok-kedah-darul-aman-malaysia-604-928-3560-3551-pusuruumedumy--SrH-sub-1">
+        06010 Sintok
+        <br/>
+        Kedah Darul Aman, Malaysia
+        <br/>
+        📞 +604-928 3560/3551
+        <br/>
+        ✉️ pusur@uum.edu.my
+        <br/>
+        ...........................................................
+        </span>
+      </p>
+      <div class="group-9-91w">
+        <a class="group-4-THX" href="https://www.uum.edu.my/getting-to-uum">Getting to UUM</a>
+        <a class="group-5-N9b" href="https://uum.edu.my/360/">Virtual Tour</a>
+        <a class="group-4-HnM" href="https://www.openstreetmap.org/search?whereami=1&query=6.4635%2C100.5055#map=14/6.4635/100.5055&layers=N">Campus Map</a>
+        <a class="group-6-DAD" href="https://www.uum.edu.my/campus-life/services/one-stop-centre">Contact Us</a>
+        <a class="group-7-LEq" href="https://www.youtube.com/channel/UC4jmFEb5BkSdAHvDuXebDXA">Youtube</a>
+        <a class="group-8-Fsb" href="https://www.facebook.com/uumsportscentre">Facebook</a>
+      </div>
+      <div class="group-2-NhK">
+        <a href="https://www.openstreetmap.org/search?whereami=1&query=6.4635%2C100.5055#map=14/6.4635/100.5055&layers=N">
+        <img class="image-2-L8M" src="./assets/image-2-jQq.png"/>
+        </a>
+        <p class="universiti-utara-malaysia-G21">© 2024 Universiti Utara Malaysia</p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>

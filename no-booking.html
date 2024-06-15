@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Retrieve the username from sessionStorage
+            var username = sessionStorage.getItem("username");
+
+            // Set the value of the hidden input field
+            document.getElementById('username').value = username;
+
+            // Submit the form
+            document.getElementById('myForm').submit();
+
+            // Wait for 5 seconds before redirecting
+            setTimeout(function () {
+                // Redirect to another page after form submission
+                window.location.href = "booking.html";
+            }, 5000); // 5000 milliseconds = 5 seconds
+        });
+    </script>
+
+    <!-- Add an "id" attribute to the form for easy identification -->
+    <form id="myForm" action="check.php" method="POST">
+        <input type='hidden' id='username' name='username' value=''>
+    </form>
+</body>
+</html>

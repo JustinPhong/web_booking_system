@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>UUM Login</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arsenal%3A400"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400"/>
+  <link rel="stylesheet" href="./styles/uum-login.css"/>
+</head>
+<body>
+    <script>
+// Wait for the DOM to be fully loaded
+document.addEventListener('DOMContentLoaded', function () {
+    // Retrieve the 'onpage' value and 'clickedDate' from sessionStorage
+    var onpage = sessionStorage.getItem("onpage");
+    var dateclicked = sessionStorage.getItem("clickedDate");
+
+    // Set the value of the hidden input fields
+    document.getElementById('onpageInput').value = onpage;
+    document.getElementById('dateInput').value = dateclicked; // Updated to 'dateInput'
+});
+
+</script>
+<div class="uum-login-Tuw">
+  <div class="auto-group-ffbk-cH3">
+    <img class="image-9-vHj" src="./assets/image-9-sPT.png"/>
+<form class="frame-21-rhB" method="POST" action="login.php">
+  <input class="auto-group-2n5j-mp9" type="text" id="username" name="username" placeholder="Username">
+  <input class="auto-group-akmf-Ehj" type="password" id="password" name="password" placeholder="Password">
+  <input type="hidden" name="onpage" id="onpageInput" value="">
+<input type="hidden" name="date" id="dateInput" value="">
+  <input class="group-18-XRw" type="submit">
+</form>
+<p class="forgot-password-RnD">Forgot Password?</p>
+</div>
+
+  <div class="auto-group-ndxt-MQy">
+    <div class="rectangle-24-uSV">
+    </div>
+    <p class="forgot-password-forgot-username-user-manual-for-staff-bahasa-or-english-user-manual-for-student-english-need-help-call-604-928-6666-6622-6644-or-email-itservicesuumedumy-copyright-2022-universiti-utara-malaysia-EDs">
+      <span class="forgot-password-forgot-username-user-manual-for-staff-bahasa-or-english-user-manual-for-student-english-need-help-call-604-928-6666-6622-6644-or-email-itservicesuumedumy-copyright-2022-universiti-utara-malaysia-EDs-sub-0">Forgot Password?</span>
+      <span class="forgot-password-forgot-username-user-manual-for-staff-bahasa-or-english-user-manual-for-student-english-need-help-call-604-928-6666-6622-6644-or-email-itservicesuumedumy-copyright-2022-universiti-utara-malaysia-EDs-sub-1"> | </span>
+      <span class="forgot-password-forgot-username-user-manual-for-staff-bahasa-or-english-user-manual-for-student-english-need-help-call-604-928-6666-6622-6644-or-email-itservicesuumedumy-copyright-2022-universiti-utara-malaysia-EDs-sub-2">Forgot Username?</span>
+      <span class="forgot-password-forgot-username-user-manual-for-staff-bahasa-or-english-user-manual-for-student-english-need-help-call-604-928-6666-6622-6644-or-email-itservicesuumedumy-copyright-2022-universiti-utara-malaysia-EDs-sub-3"> | User Manual for Staff:</span>
+      <span class="forgot-password-forgot-username-user-manual-for-staff-bahasa-or-english-user-manual-for-student-english-need-help-call-604-928-6666-6622-6644-or-email-itservicesuumedumy-copyright-2022-universiti-utara-malaysia-EDs-sub-4">Bahasa</span>
+      <span class="forgot-password-forgot-username-user-manual-for-staff-bahasa-or-english-user-manual-for-student-english-need-help-call-604-928-6666-6622-6644-or-email-itservicesuumedumy-copyright-2022-universiti-utara-malaysia-EDs-sub-5"> or </span>
+      <span class="forgot-password-forgot-username-user-manual-for-staff-bahasa-or-english-user-manual-for-student-english-need-help-call-604-928-6666-6622-6644-or-email-itservicesuumedumy-copyright-2022-universiti-utara-malaysia-EDs-sub-6">English</span>
+      <span class="forgot-password-forgot-username-user-manual-for-staff-bahasa-or-english-user-manual-for-student-english-need-help-call-604-928-6666-6622-6644-or-email-itservicesuumedumy-copyright-2022-universiti-utara-malaysia-EDs-sub-7"> | User Manual for Student : </span>
+      <span class="forgot-password-forgot-username-user-manual-for-staff-bahasa-or-english-user-manual-for-student-english-need-help-call-604-928-6666-6622-6644-or-email-itservicesuumedumy-copyright-2022-universiti-utara-malaysia-EDs-sub-8">English</span>
+      <span class="forgot-password-forgot-username-user-manual-for-staff-bahasa-or-english-user-manual-for-student-english-need-help-call-604-928-6666-6622-6644-or-email-itservicesuumedumy-copyright-2022-universiti-utara-malaysia-EDs-sub-9"> | Need Help? Call : +604-928 6666/6622/6644 or Email :</span>
+      <span class="forgot-password-forgot-username-user-manual-for-staff-bahasa-or-english-user-manual-for-student-english-need-help-call-604-928-6666-6622-6644-or-email-itservicesuumedumy-copyright-2022-universiti-utara-malaysia-EDs-sub-10">itservices@uum.edu.my</span>
+      <span class="forgot-password-forgot-username-user-manual-for-staff-bahasa-or-english-user-manual-for-student-english-need-help-call-604-928-6666-6622-6644-or-email-itservicesuumedumy-copyright-2022-universiti-utara-malaysia-EDs-sub-11">
+      <br/>
+      © Copyright 2022 - Universiti Utara Malaysia
+      </span>
+    </p>
+  </div>
+</div>
+</body>

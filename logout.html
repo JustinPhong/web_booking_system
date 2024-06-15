@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logout</title>
+</head>
+<body>
+
+<script>
+  // Remove the "username" item from sessionStorage
+  sessionStorage.removeItem("username");
+
+  // Wait for 5 seconds and then redirect to manage-booking.html
+  setTimeout(function() {
+    window.location.href = "manage-booking.html";
+  }, 1000);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>Time Selection</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=B612%3A700"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C700"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arsenal%3A400%2C700"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Asap+Condensed%3A700"/>
+  <link rel="stylesheet" href="./styles/time-selection.css"/>
+  <script>
+    function redirectToCourtBooking() {
+    // Retrieve the username from sessionStorage
+    var username = sessionStorage.getItem('username');
+
+    // Redirect to court-booking.php with the username parameter
+    window.location.href = "/court-booking.php?username=" + encodeURIComponent(username);
+  }
+
+    document.addEventListener('DOMContentLoaded', function () {
+      // Retrieve the stored date from sessionStorage
+      var storedDate = sessionStorage.getItem('clickedDate');
+
+      // Update the date element if a date is stored
+      if (storedDate) {
+        var dateElement = document.querySelector('.december-2023-DhP');
+        if (dateElement) {
+          dateElement.textContent = storedDate+ " January 2024";
+        }
+      }
+    });
+
+    document.addEventListener('DOMContentLoaded', function () {
+      // Get all elements with class 'item-1-AsF' to 'item-1-TRf'
+      var dateElements = document.querySelectorAll('.group-10-wWu, .group-12-nnR, .group-13-f5X, .group-14-ukZ, .group-15-iT7, .group-10-QKw, .group-10-6Cm, .group-11-ACd, .group-16-BNd, .group-17-smF, .group-10-Ni1, .group-10-GYV');
+
+      // Add click event listener to each date element
+      dateElements.forEach(function (element) {
+        element.addEventListener('click', function () {
+          // Get the text content of the clicked element
+          var clickedTime = element.textContent;
+
+          // Store the clicked date in sessionStorage
+          sessionStorage.setItem('clickedTime', clickedTime);
+
+        });
+      });
+    });
+  </script>
+</head>
+<body>
+<div class="time-selection-byX">
+  <div class="navi-ioF">
+    <div class="navi-fTb">
+    </div>
+    <img class="image-1-1GZ" src="./assets/image-1-JmB.png"/>
+    <div class="rectangle-2-L3w">
+    </div>
+    <div class="group-1-TuF">
+      <a href="/home.html">
+      <div class="navigation-ngd">HOME</div>
+      </a>
+      <a href="#" onclick="redirectToCourtBooking()" class="court-booking-tDs">COURT BOOKING</a>
+      <a href="/directory.html">
+      <div class="navigation-DG9">DIRECTORY</div>
+      </a>
+      <a href="/about-us.html">
+      <div class="navigation-L5s">ABOUT US</div>
+      </a>
+    </div>
+    <p class="booking-court-Eh3">COURT BOOKING</p>
+  </div>
+  <img class="image-3-Xg9" src="./assets/image-3-vE1.png"/>
+  <div class="auto-group-yalv-Fs3">
+    <div class="rectangle-4-yY9">
+    </div>
+    <div class="rectangle-5-XJm">
+    </div>
+    <p class="december-2023-DhP">15 January 2024</p>
+<a href="/court-selection15.php?username=" + encodeURIComponent(sessionStorage.getItem('username'))">
+    <div class="frame-18-WgV">
+      <div class="frame-10-Qms">
+        <div class="group-10-wWu">8:00am - 9:00am</div>
+        <div class="group-12-nnR">9:00am - 10:00am</div>
+        <div class="group-13-f5X">10:00am - 11:00am</div>
+        <div class="group-14-ukZ">11:00am - 12:00am</div>
+      </div>
+      <div class="frame-7-nJZ">
+        <div class="group-15-iT7">12:00pm - 1:00pm</div>
+        <div class="group-10-QKw">1:00pm - 2:00pm</div>
+        <div class="group-10-6Cm">2:00pm - 3:00pm</div>
+        <div class="group-11-ACd">3:00pm - 4:00pm</div>
+      </div>
+      <div class="frame-9-Sfw">
+        <div class="group-16-BNd">4:00pm - 5:00pm</div>
+        <div class="group-17-smF">5:00pm - 6:00pm</div>
+        <div class="group-10-Ni1">6:00pm - 7:00pm</div>
+        <div class="group-10-GYV">7:00pm - 8:00pm</div>
+      </div>
+    </div>
+    </a>
+    <a href="#" onclick="redirectToCourtBooking()" class="item--ANy">&lt;</a>
+    <p class="please-select-a-time-4z9">*Please select a time</p>
+    <div class="frame-22-Njw">
+    </div>
+  </div>
+  <div class="footer-K9P">
+    <img class="footer-2Jh" src="./assets/footer-LDT.png"/>
+    <div class="auto-group-bwhb-jyo">
+      <p class="sports-centre-universiti-utara-malaysia-06010-sintok-kedah-darul-aman-malaysia-604-928-3560-3551-pusuruumedumy--UwP">
+        <span class="sports-centre-universiti-utara-malaysia-06010-sintok-kedah-darul-aman-malaysia-604-928-3560-3551-pusuruumedumy--UwP-sub-0">
+        SPORTS CENTRE
+        <br/>
+        Universiti Utara Malaysia
+        <br/>
+        
+        </span>
+        <span class="sports-centre-universiti-utara-malaysia-06010-sintok-kedah-darul-aman-malaysia-604-928-3560-3551-pusuruumedumy--UwP-sub-1">
+        06010 Sintok
+        <br/>
+        Kedah Darul Aman, Malaysia
+        <br/>
+        📞 +604-928 3560/3551
+        <br/>
+        ✉️ pusur@uum.edu.my
+        <br/>
+        ...........................................................
+        </span>
+      </p>
+      <div class="group-9-XAu">
+        <a class="group-4-T4Z" href="https://www.uum.edu.my/getting-to-uum">Getting to UUM</a>
+        <a class="group-5-ZtH" href="https://uum.edu.my/360/">Virtual Tour</a>
+        <a class="group-4-gT7" href="https://www.openstreetmap.org/search?whereami=1&query=6.4635%2C100.5055#map=14/6.4635/100.5055&layers=N">Campus Map</a>
+        <a class="group-6-oXj" href="https://www.uum.edu.my/campus-life/services/one-stop-centre">Contact Us</a>
+        <a class="group-7-vsF" href="https://www.youtube.com/channel/UC4jmFEb5BkSdAHvDuXebDXA">Youtube</a>
+        <a class="group-8-FPj" href="https://www.facebook.com/uumsportscentre">Facebook</a>
+      </div>
+      <div class="group-2-NDT">
+        <a href="https://www.openstreetmap.org/search?whereami=1&query=6.4635%2C100.5055#map=14/6.4635/100.5055&layers=N">
+        <img class="image-2-KuP" src="./assets/image-2-wkR.png"/>
+        </a>
+        <p class="universiti-utara-malaysia-Sz1">© 2024 Universiti Utara Malaysia</p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>

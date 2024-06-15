@@ -1,0 +1,273 @@
+<?php
+$host = "sql207.infinityfree.com";
+$username = "if0_35750405";
+$password = "FQaTai5cwU1";
+$dbname = "if0_35750405_sportcenter";
+
+$conn = mysqli_connect($host, $username, $password, $dbname);
+
+// Check the connection
+if (mysqli_connect_error()) {
+    die("Connection could not be established: " . mysqli_connect_error());
+}
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $username = $_POST["username"];
+    $username = mysqli_real_escape_string($conn, $username);
+
+    // Select booking information for the given username using prepared statement
+    $query = "SELECT * FROM booking WHERE username = ?";
+    
+    $stmt = mysqli_prepare($conn, $query);
+    mysqli_stmt_bind_param($stmt, "s", $username);
+    mysqli_stmt_execute($stmt);
+
+    $result = mysqli_stmt_get_result($stmt);
+
+    if ($result) {
+        // Get the number of rows returned by the query
+        $numRows = mysqli_num_rows($result);
+
+        // Check if there are any rows in the result
+        if ($numRows > 0) {
+            // Loop through each row and print the data
+            $counter = 1; // Initialize a counter
+            while ($row = mysqli_fetch_assoc($result)) {
+                echo '<script>';
+                // Set session storage items based on rows
+                echo 'sessionStorage.setItem("bnum", "' . $numRows . '");';
+                echo 'sessionStorage.setItem("bdate' . $counter . '", "' . $row["date"] . '");';
+                echo 'sessionStorage.setItem("btime' . $counter . '", "' . $row["time"] . '");';
+                echo 'sessionStorage.setItem("bcourt' . $counter . '", "' . $row["court"] . '");';
+                echo 'window.location.href = "/booking.html";';
+                echo '</script>';
+
+                $counter++; // Increment the counter for the next iteration
+            }
+        } else {
+            // No rows returned, redirect to booking.html
+            header("Location: /booking.html");
+            exit();
+        }
+    } else {
+        // Query execution error
+        echo "Error executing query: " . mysqli_error($conn);
+    }
+
+    mysqli_stmt_close($stmt);
+}
+
+// Close the database connection
+mysqli_close($conn);
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>No Booking</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arsenal%3A400%2C700"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Asap+Condensed%3A700"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=B612%3A700"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C700"/>
+  <link rel="stylesheet" href="./styles/no-booking.css"/>
+  <script>
+document.addEventListener('DOMContentLoaded', function () {
+    // Retrieve the stored value from sessionStorage
+    var username = sessionStorage.getItem('username');
+    var bnum = sessionStorage.getItem('bnum');
+    
+    // Check if the username is not null or undefined
+    if (username) {
+        // Get the element with class 'phong-yen-hou-1PT'
+        var usernameElement = document.querySelector('.phong-yen-hou-1PT');
+        
+        // Update the content of the element with the stored username
+        if (usernameElement) {
+            usernameElement.textContent = username;
+        }
+    }
+    
+    // Get all elements with class 'cancelb1'
+    var cancelb1Elements = document.querySelectorAll('.cancelb1');
+    
+    // Add click event listener to each cancelb1 element
+    cancelb1Elements.forEach(function (element) {
+        element.addEventListener('click', function () {
+            // Set the value of the hidden input fields
+            document.getElementById('username').value = username;
+            
+            // Retrieve the stored values from sessionStorage
+            var date1 = sessionStorage.getItem('bdate');
+            var time1 = sessionStorage.getItem('btime');
+            var court1 = sessionStorage.getItem('bcourt');
+            
+            // Set the values in the form
+            document.getElementById('date').value = date1;
+            document.getElementById('time').value = time1;
+            document.getElementById('court').value = court1;
+            
+            // Submit the form
+            document.getElementById('myForm').submit();
+        });
+    });
+
+
+
+  // Get the "Logout" element
+  var logoutElement = document.querySelector('.logout-iof');
+
+    var maxBookings = 7;
+
+    // Loop through each booking number
+    for (let i = 1; i <= maxBookings; i++) {
+        var bdate = sessionStorage.getItem('bdate' + i);
+        var btime = sessionStorage.getItem('btime' + i);
+        var bcourt = sessionStorage.getItem('bcourt' + i);
+
+        var bnum = sessionStorage.getItem('bnum');
+
+        var bookedElement = document.querySelector('.booked' + i);
+
+        // Check if bnum has a value and matches the current iteration
+        if (bnum && bnum === i.toString()) {
+            bookedElement.style.display = 'block';
+
+            var dateElement = document.querySelector('.date' + i);
+            var timeElement = document.querySelector('.time' + i);
+            var courtElement = document.querySelector('.court' + i);
+
+            // Update the content of the elements with booking details
+            if (dateElement && timeElement && courtElement) {
+                dateElement.textContent = bdate;
+                timeElement.textContent = btime;
+                courtElement.textContent = bcourt;
+            }
+        } else {
+            bookedElement.style.display = 'none';
+        }
+    }
+});
+
+
+  // Add click event listener to the "Logout" element
+  if (logoutElement) {
+    logoutElement.addEventListener('click', function () {
+      // Clear the sessionStorage
+      sessionStorage.removeItem('username');
+      sessionStorage.removeItem('bnum');
+    // Loop to remove sessionStorage items with keys ending in numbers from 1 to 7
+    for (let i = 1; i <= 7; i++) {
+        sessionStorage.removeItem('bdate' + i);
+        sessionStorage.removeItem('btime' + i);
+        sessionStorage.removeItem('bcourt' + i);
+    }
+      window.location.href = 'manage-booking.html';
+
+      // Redirect to the logout page or perform other actions if needed
+      // window.location.href = 'logout.html';
+    });
+  }
+});
+
+  </script>
+</head>
+<body>
+    <form id="myForm" action="cancelb.php" method="POST">
+        <input type='hidden' id='username' name='username' value=''>
+        <input type="hidden" id='date' name='date' value="">
+        <input type="hidden" id="time" name="time" value="">
+        <input type="hidden" id="court" name="court" value="">
+    </form>
+<div class="no-booking-dgR">
+  <div class="navi-BC9">
+    <div class="navi-jDf">
+    </div>
+    <img class="image-1-GzH" src="./assets/image-1.png"/>
+    <div class="rectangle-2-Qqb">
+    </div>
+    <div class="group-1-MVw">
+      <a href="/home.html">
+      <div class="navigation-g2R">HOME</div>
+      </a>
+      <a href="/court-booking.html">
+      <p class="court-booking-z37">COURT BOOKING</p>
+      </a>
+      <a href="/directory.html">
+      <div class="navigation-ijo">DIRECTORY</div>
+      </a>
+      <a href="/about-us.html">
+      <div class="navigation-Sfo">ABOUT US</div>
+      </a>
+    </div>
+    <p class="booking-court-Arh">COURT BOOKING</p>
+  </div>
+  <img class="image-3-gKF" src="./assets/image-3-nUd.png"/>
+  <div class="auto-group-eal5-pAZ">
+    <div class="rectangle-4-k4D">
+    </div>
+    <div class="rectangle-5-hEM">
+    </div>
+    <p class="manage-booking-DCh">Manage Booking</p>
+    <a href="/court-booking.html">
+    <p class="item--KFj">&lt;</p>
+    </a>
+    <p class="phong-yen-hou-1PT">PHONG YEN HOU</p>
+    <p class="logout-iof">Logout</p>
+    <p class="no-booking-E1K">No Booking</p>
+    <div class="booked1">
+    <div class="rectangle-28-H1P">
+    </div>
+    <p class="date1">11</p>
+    <p class="datet1"> January 2024  </p>
+    <p class="time1">8:00am - 9:00am</p>
+    <p class="court1"> Court </p>
+    <div class="cancelb1">
+    <div class="rectangle-29-Jx5">
+      </div>
+    <p class="cancel-3Ps">Cancel</p>
+  </div>
+    </div>
+  </div>
+  <div class="footer-vPw">
+    <img class="footer-rHb" src="./assets/footer-u4q.png"/>
+    <div class="auto-group-apkd-Nmj">
+      <p class="sports-centre-universiti-utara-malaysia-06010-sintok-kedah-darul-aman-malaysia-604-928-3560-3551-pusuruumedumy--Wd3">
+        <span class="sports-centre-universiti-utara-malaysia-06010-sintok-kedah-darul-aman-malaysia-604-928-3560-3551-pusuruumedumy--Wd3-sub-0">
+        SPORTS CENTRE
+        <br/>
+        Universiti Utara Malaysia
+        <br/>
+        
+        </span>
+        <span class="sports-centre-universiti-utara-malaysia-06010-sintok-kedah-darul-aman-malaysia-604-928-3560-3551-pusuruumedumy--Wd3-sub-1">
+        06010 Sintok
+        <br/>
+        Kedah Darul Aman, Malaysia
+        <br/>
+        📞 +604-928 3560/3551
+        <br/>
+        ✉️ pusur@uum.edu.my
+        <br/>
+        ...........................................................
+        </span>
+      </p>
+      <div class="group-9-R1F">
+        <div class="group-4-YLm">Getting to UUM</div>
+        <div class="group-5-3YR">Virtual Tour</div>
+        <div class="group-4-mUR">Campus Map</div>
+        <div class="group-6-HBs">Contact Us</div>
+        <div class="group-7-17s">Youtube</div>
+        <div class="group-8-KuF">Facebook</div>
+      </div>
+      <div class="group-2-eRj">
+        <img class="image-2-brm" src="./assets/image-2-U5T.png"/>
+        <p class="universiti-utara-malaysia-vu3">© 2024 Universiti Utara Malaysia</p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
