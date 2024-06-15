@@ -1,0 +1,444 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.booking-avaliable-6rh {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.booking-avaliable-6rh .navi-3G9 {
+  width: 100%;
+  height: 21.6rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.booking-avaliable-6rh .navi-3G9 .navi-zBP {
+  width: 144rem;
+  height: 15.4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #535353;
+}
+.booking-avaliable-6rh .navi-3G9 .image-1-LFF {
+  width: 40.5rem;
+  height: 13.6rem;
+  position: absolute;
+  left: 7.1rem;
+  top: 0.9rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.booking-avaliable-6rh .navi-3G9 .rectangle-2-4BF {
+  width: 144rem;
+  height: 6.5rem;
+  position: absolute;
+  left: 0;
+  top: 15.1rem;
+  background-color: #eac646;
+}
+.booking-avaliable-6rh .navi-3G9 .group-1-CHT {
+  width: 52rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 86.3rem;
+  top: 6.5rem;
+  display: flex;
+  column-gap: 2.9rem;
+  align-items: center;
+}
+.booking-avaliable-6rh .navi-3G9 .group-1-CHT .navigation-7vD {
+  width: 6.1rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #ffffff;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.booking-avaliable-6rh .navi-3G9 .group-1-CHT .court-booking-qLR {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #eac646;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.booking-avaliable-6rh .navi-3G9 .group-1-CHT .navigation-NbF {
+  width: 10.9rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #ffffff;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.booking-avaliable-6rh .navi-3G9 .group-1-CHT .navigation-tpV {
+  width: 10rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #ffffff;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.booking-avaliable-6rh .navi-3G9 .booking-court-R3j {
+  width: 22.7rem;
+  height: 3.5rem;
+  position: absolute;
+  left: 60.7rem;
+  top: 16.6rem;
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #000000;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.booking-avaliable-6rh .image-3-vFP {
+  margin-right: 0.1rem;
+  width: 123.1rem;
+  height: 57.8rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.booking-avaliable-6rh .auto-group-mksk-Tm7 {
+  margin-bottom: 17.4rem;
+  width: 100%;
+  height: 90rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.booking-avaliable-6rh .auto-group-mksk-Tm7 .rectangle-4-Pem {
+  width: 144rem;
+  height: 12.3rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #eac646;
+}
+.booking-avaliable-6rh .auto-group-mksk-Tm7 .rectangle-5-La1 {
+  width: 124.6rem;
+  height: 83.5rem;
+  position: absolute;
+  left: 9.7rem;
+  top: 6.5rem;
+  box-shadow: 0.4rem 0.5rem 1.2rem rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+}
+.booking-avaliable-6rh .auto-group-mksk-Tm7 .manage-booking-qmf {
+  width: 35.2rem;
+  height: 6.7rem;
+  position: absolute;
+  left: 19.8rem;
+  top: 12.3rem;
+  font-size: 5.3rem;
+  font-weight: 400;
+  line-height: 1.255;
+  color: #000000;
+  font-family: Arsenal, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.booking-avaliable-6rh .auto-group-mksk-Tm7 .item--x5b {
+  width: 2rem;
+  height: 6.7rem;
+  cursor: pointer;
+  position: absolute;
+  left: 14.8rem;
+  top: 12.3rem;
+  font-size: 5.3rem;
+  font-weight: 400;
+  line-height: 1.255;
+  color: #000000;
+  font-family: Arsenal, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.booking-avaliable-6rh .auto-group-mksk-Tm7 .phong-yen-hou-4eR {
+  width: 15.7rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 19.8rem;
+  top: 20.2rem;
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 1.255;
+  color: #000000;
+  font-family: Arsenal, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.booking-avaliable-6rh .auto-group-mksk-Tm7 .logout-AhT {
+  width: 6.1rem;
+  height: 2.8rem;
+  cursor: pointer;
+  position: absolute;
+  left: 37.4rem;
+  top: 20.2rem;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 1.255;
+  color: #0477ff;
+  font-family: Arsenal, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.booking-avaliable-6rh .auto-group-mksk-Tm7 .rectangle-28-H1P {
+  width: 116.4rem;
+  height: 13.5rem;
+  position: absolute;
+  left: 13.8rem;
+  top: 25.8rem;
+  background-color: #f4f4f4;
+}
+.booking-avaliable-6rh .auto-group-mksk-Tm7 .december-2023-8-00am-9-00am-court-1-1i5 {
+  width: 83rem;
+  height: 5.9rem;
+  position: absolute;
+  left: 16.9rem;
+  top: 29.3rem;
+  font-size: 4.7rem;
+  font-weight: 400;
+  line-height: 1.255;
+  color: #000000;
+  font-family: Arsenal, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.booking-avaliable-6rh .auto-group-mksk-Tm7 .rectangle-29-Jx5 {
+  width: 14.5rem;
+  height: 4.2rem;
+  cursor: pointer;
+  position: absolute;
+  left: 113.1rem;
+  top: 30.5rem;
+  background-color: #535353;
+}
+.booking-avaliable-6rh .auto-group-mksk-Tm7 .cancel-3Ps {
+  width: 7.2rem;
+  height: 3.4rem;
+  position: absolute;
+  left: 116.8rem;
+  top: 30.9rem;
+  font-size: 2.7rem;
+  font-weight: 400;
+  line-height: 1.255;
+  color: #ffffff;
+  font-family: Arsenal, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.booking-avaliable-6rh .footer-kp5 {
+  box-sizing: border-box;
+  padding: 2.7rem 5.8rem 5.1rem 11rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -3rem 1.3rem 1rem rgba(0, 0, 0, 0.25);
+  background-color: #3a3c45;
+  flex-shrink: 0;
+}
+.booking-avaliable-6rh .footer-kp5 .footer-HZ7 {
+  margin: 0rem 5.1rem 3.6rem 0rem;
+  width: 63.5rem;
+  height: 12.4rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.booking-avaliable-6rh .footer-kp5 .auto-group-wksq-1zu {
+  width: 100%;
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.booking-avaliable-6rh .footer-kp5 .auto-group-wksq-1zu .sports-centre-universiti-utara-malaysia-06010-sintok-kedah-darul-aman-malaysia-604-928-3560-3551-pusuruumedumy--9rD {
+  margin: 0rem 7.7rem 5.2rem 0rem;
+  max-width: 34.6rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.1460000038;
+  letter-spacing: 0.1rem;
+  color: #ffffff;
+  font-family: Asap Condensed, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.booking-avaliable-6rh .footer-kp5 .auto-group-wksq-1zu .sports-centre-universiti-utara-malaysia-06010-sintok-kedah-darul-aman-malaysia-604-928-3560-3551-pusuruumedumy--9rD .sports-centre-universiti-utara-malaysia-06010-sintok-kedah-darul-aman-malaysia-604-928-3560-3551-pusuruumedumy--9rD-sub-0 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.255;
+  letter-spacing: 0.1rem;
+  color: #ffffff;
+  font-family: Arsenal, 'Source Sans Pro';
+}
+.booking-avaliable-6rh .footer-kp5 .auto-group-wksq-1zu .sports-centre-universiti-utara-malaysia-06010-sintok-kedah-darul-aman-malaysia-604-928-3560-3551-pusuruumedumy--9rD .sports-centre-universiti-utara-malaysia-06010-sintok-kedah-darul-aman-malaysia-604-928-3560-3551-pusuruumedumy--9rD-sub-1 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.255;
+  letter-spacing: 0.1rem;
+  color: #ffffff;
+  font-family: Arsenal, 'Source Sans Pro';
+}
+.booking-avaliable-6rh .footer-kp5 .auto-group-wksq-1zu .group-9-oxh {
+  margin-right: 11.8rem;
+  width: 37.5rem;
+  height: 100%;
+  row-gap: 1.2rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.booking-avaliable-6rh .footer-kp5 .auto-group-wksq-1zu .group-9-oxh .group-4-Xth {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #eac646;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #535353;
+  flex-shrink: 0;
+}
+.booking-avaliable-6rh .footer-kp5 .auto-group-wksq-1zu .group-9-oxh .group-5-3MF {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #eac646;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #535353;
+  flex-shrink: 0;
+}
+.booking-avaliable-6rh .footer-kp5 .auto-group-wksq-1zu .group-9-oxh .group-4-kmT {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #eac646;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #535353;
+  flex-shrink: 0;
+}
+.booking-avaliable-6rh .footer-kp5 .auto-group-wksq-1zu .group-9-oxh .group-6-3Vf {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #eac646;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #535353;
+  flex-shrink: 0;
+}
+.booking-avaliable-6rh .footer-kp5 .auto-group-wksq-1zu .group-9-oxh .group-7-kQ5 {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #eac646;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d92020;
+  flex-shrink: 0;
+}
+.booking-avaliable-6rh .footer-kp5 .auto-group-wksq-1zu .group-9-oxh .group-8-5qf {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #eac646;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3e4e9d;
+  flex-shrink: 0;
+}
+.booking-avaliable-6rh .footer-kp5 .auto-group-wksq-1zu .group-2-CfP {
+  margin-bottom: 0.7rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1.8rem;
+  flex-shrink: 0;
+}
+.booking-avaliable-6rh .footer-kp5 .auto-group-wksq-1zu .group-2-CfP .image-2-MYH {
+  margin-bottom: 1.6rem;
+  width: 35.6rem;
+  height: 25.1rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 1.8rem;
+  flex-shrink: 0;
+}
+.booking-avaliable-6rh .footer-kp5 .auto-group-wksq-1zu .group-2-CfP .universiti-utara-malaysia-gaZ {
+  margin-left: 0.1rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.255;
+  color: #ffffff;
+  font-family: Arsenal, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}

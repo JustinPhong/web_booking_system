@@ -1,0 +1,618 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.about-us-Kcy {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.1rem #000000;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+.about-us-Kcy .navi-TDP {
+  width: 100%;
+  height: 21.6rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.about-us-Kcy .navi-TDP .navi-CAy {
+  width: 144rem;
+  height: 15.4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #535353;
+}
+.about-us-Kcy .navi-TDP .image-1-Xj3 {
+  width: 40.5rem;
+  height: 13.6rem;
+  position: absolute;
+  left: 7.1rem;
+  top: 0.9rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.about-us-Kcy .navi-TDP .rectangle-2-fKT {
+  width: 144rem;
+  height: 6.5rem;
+  position: absolute;
+  left: 0;
+  top: 15.1rem;
+  background-color: #eac646;
+}
+.about-us-Kcy .navi-TDP .group-1-byo {
+  width: 39.1rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 86.3rem;
+  top: 6.5rem;
+  display: flex;
+  column-gap: 2.9rem;
+  align-items: center;
+}
+.about-us-Kcy .navi-TDP .group-1-byo .navigation-Rxq {
+  width: 6.1rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #ffffff;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.about-us-Kcy .navi-TDP .group-1-byo .navigation-KoK {
+  width: 16.3rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #ffffff;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.about-us-Kcy .navi-TDP .group-1-byo .navigation-2xd {
+  width: 10.9rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #ffffff;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.about-us-Kcy .navi-TDP .about-us-9XT {
+  width: 13.9rem;
+  height: 3.5rem;
+  position: absolute;
+  left: 65.1rem;
+  top: 16.6rem;
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #000000;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.about-us-Kcy .navi-TDP .about-us-TY9 {
+  width: 10rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 128.3rem;
+  top: 6.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #eac646;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.about-us-Kcy .auto-group-ywl5-xzh {
+  width: 100%;
+  height: 165.2rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.about-us-Kcy .auto-group-ywl5-xzh .auto-group-tp21-7Mo {
+  width: 125rem;
+  height: 12.8rem;
+  position: absolute;
+  left: 9.6rem;
+  top: 7rem;
+}
+.about-us-Kcy .auto-group-ywl5-xzh .auto-group-tp21-7Mo .rectangle-8-R7b {
+  width: 125rem;
+  height: 6.8rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: solid 0.1rem #000000;
+  box-sizing: border-box;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #0477ff;
+}
+.about-us-Kcy .auto-group-ywl5-xzh .auto-group-tp21-7Mo .vision-Jx5 {
+  width: 13.5rem;
+  height: 4.9rem;
+  position: absolute;
+  left: 55.75rem;
+  top: 0.8rem;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #000000;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.about-us-Kcy .auto-group-ywl5-xzh .auto-group-tp21-7Mo .rectangle-10-Dp9 {
+  width: 125rem;
+  height: 6.8rem;
+  position: absolute;
+  left: 0;
+  top: 6rem;
+  border: solid 0.1rem #000000;
+  box-sizing: border-box;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #eac646;
+}
+.about-us-Kcy .auto-group-ywl5-xzh .auto-group-tp21-7Mo .to-become-a-holistic-sports-centre-in-archieving-university-sports-excellence-8AR {
+  width: 94.8rem;
+  height: 4rem;
+  position: absolute;
+  left: 16rem;
+  top: 7.2rem;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.3075;
+  color: #000000;
+  font-family: Assistant, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.about-us-Kcy .auto-group-ywl5-xzh .auto-group-fwqd-ziR {
+  width: 125rem;
+  height: 13.5rem;
+  position: absolute;
+  left: 9.8rem;
+  top: 33.9rem;
+}
+.about-us-Kcy .auto-group-ywl5-xzh .auto-group-fwqd-ziR .rectangle-9-iPX {
+  width: 125rem;
+  height: 6.8rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: solid 0.1rem #000000;
+  box-sizing: border-box;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #0477ff;
+}
+.about-us-Kcy .auto-group-ywl5-xzh .auto-group-fwqd-ziR .mission-RYq {
+  width: 16.7rem;
+  height: 4.9rem;
+  position: absolute;
+  left: 54.15rem;
+  top: 0.9rem;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #000000;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.about-us-Kcy .auto-group-ywl5-xzh .auto-group-fwqd-ziR .rectangle-11-8TF {
+  width: 125rem;
+  height: 6.8rem;
+  position: absolute;
+  left: 0;
+  top: 6.7rem;
+  border: solid 0.1rem #000000;
+  box-sizing: border-box;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #eac646;
+}
+.about-us-Kcy .auto-group-ywl5-xzh .auto-group-fwqd-ziR .to-provide-the-best-and-condusive-services-and-facilities-to-our-customers-3KK {
+  width: 91.6rem;
+  height: 4rem;
+  position: absolute;
+  left: 17.45rem;
+  top: 8.3rem;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.3075;
+  color: #000000;
+  font-family: Assistant, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.about-us-Kcy .auto-group-ywl5-xzh .auto-group-nciz-K1w {
+  width: 125rem;
+  height: 36.7rem;
+  position: absolute;
+  left: 9.6rem;
+  top: 60.6rem;
+}
+.about-us-Kcy .auto-group-ywl5-xzh .auto-group-nciz-K1w .rectangle-10-1fT {
+  width: 125rem;
+  height: 6.8rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: solid 0.1rem #000000;
+  box-sizing: border-box;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #0477ff;
+}
+.about-us-Kcy .auto-group-ywl5-xzh .auto-group-nciz-K1w .objective-hoB {
+  width: 21.1rem;
+  height: 4.9rem;
+  position: absolute;
+  left: 52.05rem;
+  top: 0.8rem;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #000000;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.about-us-Kcy .auto-group-ywl5-xzh .auto-group-nciz-K1w .rectangle-12-1J5 {
+  width: 125rem;
+  height: 30rem;
+  position: absolute;
+  left: 0;
+  top: 6.7rem;
+  border: solid 0.1rem #000000;
+  box-sizing: border-box;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #eac646;
+}
+.about-us-Kcy .auto-group-ywl5-xzh .auto-group-nciz-K1w .producing-more-uum-athletes-to-represent-our-country-internationally-ensuring-the-management-of-athlete-development-programmes-is-systematically-implemented-with-the-assistance-from-all-stakeholders-acting-as-a-technical-reference-centre-for-sports-management-and-development-at-the-university-coordinating-all-support-services-in-various-aspects-such-as-coaching-management-training-facilities-athlete-welfare-and-governance-at-the-university-sports-development-stage-preserving-sports-culture-and-healthy-lifestyle-among-the-uum-community-JHB {
+  width: 119.7rem;
+  height: 27.5rem;
+  position: absolute;
+  left: 2rem;
+  top: 8rem;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.3075;
+  color: #000000;
+  font-family: Assistant, 'Source Sans Pro';
+}
+.about-us-Kcy .auto-group-ywl5-xzh .auto-group-pwvw-aP7 {
+  width: 125rem;
+  height: 6.8rem;
+  position: absolute;
+  left: 9.4rem;
+  top: 112.7rem;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #000000;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.1rem #000000;
+  box-sizing: border-box;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #0477ff;
+}
+.about-us-Kcy .auto-group-ywl5-xzh .auto-group-av1f-1jK {
+  width: 125.1rem;
+  height: 15rem;
+  position: absolute;
+  left: 9.4rem;
+  top: 119.7rem;
+  display: flex;
+  align-items: center;
+}
+.about-us-Kcy .auto-group-ywl5-xzh .auto-group-av1f-1jK .auto-group-2pjq-wN5 {
+  margin-right: 0.1rem;
+  box-sizing: border-box;
+  padding: 0.5rem 9.25rem 0.5rem 10.35rem;
+  height: 100%;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.3075;
+  color: #000000;
+  font-family: Assistant, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.2rem #000000;
+  background-color: #eac646;
+  flex-shrink: 0;
+  width: 62.5rem;
+
+}
+.about-us-Kcy .auto-group-ywl5-xzh .auto-group-av1f-1jK .auto-group-pp73-1Mw {
+  box-sizing: border-box;
+  padding: 0.7rem 11.95rem 0.7rem 12.15rem;
+  height: 100%;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.3075;
+  color: #000000;
+  font-family: Assistant, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.2rem #000000;
+  background-color: #eac646;
+  flex-shrink: 0;
+  width: 62.5rem;
+
+}
+.about-us-Kcy .auto-group-ywl5-xzh .auto-group-d7hw-tRj {
+  width: 125.1rem;
+  height: 15rem;
+  position: absolute;
+  left: 9.4rem;
+  top: 134.8rem;
+  display: flex;
+  align-items: center;
+}
+.about-us-Kcy .auto-group-ywl5-xzh .auto-group-d7hw-tRj .auto-group-x3sv-RAm {
+  margin-right: 0.1rem;
+  width: 62.5rem;
+  height: 100%;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.3075;
+  color: #010101;
+  font-family: Assistant, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.2rem #000000;
+  box-sizing: border-box;
+  background-color: #eac646;
+  flex-shrink: 0;
+}
+.about-us-Kcy .auto-group-ywl5-xzh .auto-group-d7hw-tRj .auto-group-ycqb-uLq {
+  width: 62.5rem;
+  height: 100%;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.3075;
+  color: #000000;
+  font-family: Assistant, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.2rem #000000;
+  box-sizing: border-box;
+  background-color: #eac646;
+  flex-shrink: 0;
+}
+.about-us-Kcy .footer-z7P {
+  box-sizing: border-box;
+  padding: 2.7rem 5.8rem 5.1rem 11rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -3rem 1.3rem 1rem rgba(0, 0, 0, 0.25);
+  background-color: #3a3c45;
+  flex-shrink: 0;
+}
+.about-us-Kcy .footer-z7P .footer-i3P {
+  margin: 0rem 5.1rem 3.6rem 0rem;
+  width: 63.5rem;
+  height: 12.4rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.about-us-Kcy .footer-z7P .auto-group-sns1-EGd {
+  width: 100%;
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.about-us-Kcy .footer-z7P .auto-group-sns1-EGd .sports-centre-universiti-utara-malaysia-06010-sintok-kedah-darul-aman-malaysia-604-928-3560-3551-pusuruumedumy--mnM {
+  margin: 0rem 7.7rem 5.2rem 0rem;
+  max-width: 34.6rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.1460000038;
+  letter-spacing: 0.1rem;
+  color: #ffffff;
+  font-family: Asap Condensed, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.about-us-Kcy .footer-z7P .auto-group-sns1-EGd .sports-centre-universiti-utara-malaysia-06010-sintok-kedah-darul-aman-malaysia-604-928-3560-3551-pusuruumedumy--mnM .sports-centre-universiti-utara-malaysia-06010-sintok-kedah-darul-aman-malaysia-604-928-3560-3551-pusuruumedumy--mnM-sub-0 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.255;
+  letter-spacing: 0.1rem;
+  color: #ffffff;
+  font-family: Arsenal, 'Source Sans Pro';
+}
+.about-us-Kcy .footer-z7P .auto-group-sns1-EGd .sports-centre-universiti-utara-malaysia-06010-sintok-kedah-darul-aman-malaysia-604-928-3560-3551-pusuruumedumy--mnM .sports-centre-universiti-utara-malaysia-06010-sintok-kedah-darul-aman-malaysia-604-928-3560-3551-pusuruumedumy--mnM-sub-1 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.255;
+  letter-spacing: 0.1rem;
+  color: #ffffff;
+  font-family: Arsenal, 'Source Sans Pro';
+}
+.about-us-Kcy .footer-z7P .auto-group-sns1-EGd .group-9-zww {
+  margin-right: 11.8rem;
+  width: 37.5rem;
+  height: 100%;
+  row-gap: 1.2rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.about-us-Kcy .footer-z7P .auto-group-sns1-EGd .group-9-zww .group-4-8Rs {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #eac646;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #535353;
+  flex-shrink: 0;
+}
+.about-us-Kcy .footer-z7P .auto-group-sns1-EGd .group-9-zww .group-5-ddX {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #eac646;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #535353;
+  flex-shrink: 0;
+}
+.about-us-Kcy .footer-z7P .auto-group-sns1-EGd .group-9-zww .group-4-9bs {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #eac646;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #535353;
+  flex-shrink: 0;
+}
+.about-us-Kcy .footer-z7P .auto-group-sns1-EGd .group-9-zww .group-6-sXs {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #eac646;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #535353;
+  flex-shrink: 0;
+}
+.about-us-Kcy .footer-z7P .auto-group-sns1-EGd .group-9-zww .group-7-CKF {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #eac646;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d92020;
+  flex-shrink: 0;
+}
+.about-us-Kcy .footer-z7P .auto-group-sns1-EGd .group-9-zww .group-8-iYV {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #eac646;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3e4e9d;
+  flex-shrink: 0;
+}
+.about-us-Kcy .footer-z7P .auto-group-sns1-EGd .group-2-dfT {
+  margin-bottom: 0.7rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1.8rem;
+  flex-shrink: 0;
+}
+.about-us-Kcy .footer-z7P .auto-group-sns1-EGd .group-2-dfT .image-2-n2Z {
+  margin-bottom: 1.6rem;
+  width: 35.6rem;
+  height: 25.1rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 1.8rem;
+  flex-shrink: 0;
+}
+.about-us-Kcy .footer-z7P .auto-group-sns1-EGd .group-2-dfT .universiti-utara-malaysia-ucy {
+  margin-left: 0.1rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.255;
+  color: #ffffff;
+  font-family: Arsenal, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.claim {
+    position: absolute;
+    color: #d92020;
+    font-size: 2rem;
+    top: 152rem;
+    left: 32rem;
+}

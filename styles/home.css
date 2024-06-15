@@ -1,0 +1,410 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.home-zg5 {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.1rem #000000;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+.home-zg5 .navi-auB {
+  width: 100%;
+  height: 21.6rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.home-zg5 .navi-auB .navi-rkD {
+  width: 144rem;
+  height: 15.4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #535353;
+}
+.home-zg5 .navi-auB .image-1-yK3 {
+  width: 40.5rem;
+  height: 13.6rem;
+  position: absolute;
+  left: 7.1rem;
+  top: 0.9rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.home-zg5 .navi-auB .rectangle-2-tB7 {
+  width: 144rem;
+  height: 6.5rem;
+  position: absolute;
+  left: 0;
+  top: 15.1rem;
+  background-color: #eac646;
+}
+.home-zg5 .navi-auB .group-1-oos {
+  width: 43rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 95.3rem;
+  top: 6.5rem;
+  display: flex;
+  align-items: center;
+}
+.home-zg5 .navi-auB .group-1-oos .navigation-vtV {
+  margin-right: 2.8rem;
+  width: 16.4rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #ffffff;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-zg5 .navi-auB .group-1-oos .navigation-yLy {
+  margin-right: 2.9rem;
+  width: 10.9rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #ffffff;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.home-zg5 .navi-auB .group-1-oos .navigation-FJV {
+  width: 10rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #ffffff;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.home-zg5 .navi-auB .home-8t5 {
+  width: 8.5rem;
+  height: 3.5rem;
+  position: absolute;
+  left: 67.75rem;
+  top: 16.6rem;
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #000000;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-zg5 .navi-auB .navigation-pku {
+  width: 6.1rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 86.3rem;
+  top: 6.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #eac646;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-zg5 .pusu2-1-8mb {
+  width: 144rem;
+  height: 60.1rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.home-zg5 .auto-group-arvb-gYD {
+  margin-bottom: 7.9rem;
+  width: 100%;
+  height: 12.3rem;
+  text-align: center;
+  font-size: 3.6rem;
+  font-weight: 400;
+  line-height: 1.215;
+  color: #000000;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eac646;
+  flex-shrink: 0;
+}
+.home-zg5 .auto-group-rmrw-ZM7 {
+  margin-bottom: 8rem;
+  box-sizing: border-box;
+  padding: 1.7rem 1.5rem 1.7rem 1.4rem;
+  width: 100%;
+  height: 76.9rem;
+  display: flex;
+  column-gap: 4.4rem;
+  align-items: center;
+  background-color: #d9d9d9;
+  flex-shrink: 0;
+}
+.home-zg5 .auto-group-rmrw-ZM7 .rectangle-30-TSV {
+  width: 44.1rem;
+  height: 43.9rem;
+  position: relative;
+  background-size: 153.789% 169.467%;
+  background-position: -12.7337rem -15.7226rem;
+  background-image: url('../assets/rectangle-30.png');
+  flex-shrink: 0;
+}
+.home-zg5 .auto-group-rmrw-ZM7 .auto-group-t5mw-wsT {
+  margin-bottom: 14.8rem;
+  width: 44.1rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.home-zg5 .auto-group-rmrw-ZM7 .auto-group-t5mw-wsT .group-19-V8H {
+  margin: 0rem 2.7rem 7.3rem 2.6rem;
+  width: calc(100% - 5.3rem);
+  height: 7.5rem;
+  text-align: center;
+  font-size: 3.6rem;
+  font-weight: 400;
+  line-height: 1.215;
+  color: #000000;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eac646;
+  flex-shrink: 0;
+}
+.home-zg5 .auto-group-rmrw-ZM7 .auto-group-t5mw-wsT .screenshot-14-1-joK {
+  width: 44.1rem;
+  height: 43.9rem;
+  position: relative;
+  background-size: 154.057% 155.388%;
+  background-position: -12.5932rem -13.6959rem;
+  background-image: url('../assets/screenshot-14-1.png');
+  flex-shrink: 0;
+}
+.home-zg5 .auto-group-rmrw-ZM7 .screenshot-12-1-1F3 {
+  width: 44.1rem;
+  height: 43.9rem;
+  position: relative;
+  background-size: 154.369% 172.68%;
+  background-position: -12.6615rem -16.8676rem;
+  background-image: url('../assets/screenshot-12-1.png');
+  flex-shrink: 0;
+}
+.home-zg5 .footer-5Vo {
+  box-sizing: border-box;
+  padding: 2.7rem 5.8rem 5.1rem 11rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -3rem 1.3rem 1rem rgba(0, 0, 0, 0.25);
+  background-color: #3a3c45;
+  flex-shrink: 0;
+}
+.home-zg5 .footer-5Vo .footer-ogh {
+  margin: 0rem 5.1rem 3.6rem 0rem;
+  width: 63.5rem;
+  height: 12.4rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.home-zg5 .footer-5Vo .auto-group-cnvz-jKT {
+  width: 100%;
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.home-zg5 .footer-5Vo .auto-group-cnvz-jKT .sports-centre-universiti-utara-malaysia-06010-sintok-kedah-darul-aman-malaysia-604-928-3560-3551-pusuruumedumy--gEh {
+  margin: 0rem 7.7rem 5.2rem 0rem;
+  max-width: 34.6rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.1460000038;
+  letter-spacing: 0.1rem;
+  color: #ffffff;
+  font-family: Asap Condensed, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.home-zg5 .footer-5Vo .auto-group-cnvz-jKT .sports-centre-universiti-utara-malaysia-06010-sintok-kedah-darul-aman-malaysia-604-928-3560-3551-pusuruumedumy--gEh .sports-centre-universiti-utara-malaysia-06010-sintok-kedah-darul-aman-malaysia-604-928-3560-3551-pusuruumedumy--gEh-sub-0 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.255;
+  letter-spacing: 0.1rem;
+  color: #ffffff;
+  font-family: Arsenal, 'Source Sans Pro';
+}
+.home-zg5 .footer-5Vo .auto-group-cnvz-jKT .sports-centre-universiti-utara-malaysia-06010-sintok-kedah-darul-aman-malaysia-604-928-3560-3551-pusuruumedumy--gEh .sports-centre-universiti-utara-malaysia-06010-sintok-kedah-darul-aman-malaysia-604-928-3560-3551-pusuruumedumy--gEh-sub-1 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.255;
+  letter-spacing: 0.1rem;
+  color: #ffffff;
+  font-family: Arsenal, 'Source Sans Pro';
+}
+.home-zg5 .footer-5Vo .auto-group-cnvz-jKT .group-9-xtM {
+  margin-right: 11.8rem;
+  width: 37.5rem;
+  height: 100%;
+  row-gap: 1.2rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.home-zg5 .footer-5Vo .auto-group-cnvz-jKT .group-9-xtM .group-4-t1K {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #eac646;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #535353;
+  flex-shrink: 0;
+}
+.home-zg5 .footer-5Vo .auto-group-cnvz-jKT .group-9-xtM .group-5-ncV {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #eac646;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #535353;
+  flex-shrink: 0;
+}
+.home-zg5 .footer-5Vo .auto-group-cnvz-jKT .group-9-xtM .group-4-VG1 {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #eac646;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #535353;
+  flex-shrink: 0;
+}
+.home-zg5 .footer-5Vo .auto-group-cnvz-jKT .group-9-xtM .group-6-P6V {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #eac646;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #535353;
+  flex-shrink: 0;
+}
+.home-zg5 .footer-5Vo .auto-group-cnvz-jKT .group-9-xtM .group-7-uKj {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #eac646;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d92020;
+  flex-shrink: 0;
+}
+.home-zg5 .footer-5Vo .auto-group-cnvz-jKT .group-9-xtM .group-8-cV3 {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #eac646;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3e4e9d;
+  flex-shrink: 0;
+}
+.home-zg5 .footer-5Vo .auto-group-cnvz-jKT .group-2-vkd {
+  margin-bottom: 0.7rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1.8rem;
+  flex-shrink: 0;
+}
+.home-zg5 .footer-5Vo .auto-group-cnvz-jKT .group-2-vkd .image-2-5Nd {
+  margin-bottom: 1.6rem;
+  width: 35.6rem;
+  height: 25.1rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 1.8rem;
+  flex-shrink: 0;
+}
+.home-zg5 .footer-5Vo .auto-group-cnvz-jKT .group-2-vkd .universiti-utara-malaysia-Qfo {
+  margin-left: 0.1rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.255;
+  color: #ffffff;
+  font-family: Arsenal, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+a {
+  text-decoration: none;
+}

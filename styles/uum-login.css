@@ -1,0 +1,197 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.uum-login-Tuw {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.uum-login-Tuw .auto-group-ffbk-cH3 {
+  box-sizing: border-box;
+  padding: 2.9rem 12.8rem 2.9rem 3.9rem;
+  width: 100%;
+  height: 11.1rem;
+  display: flex;
+  align-items: center;
+  background-color: #535353;
+  flex-shrink: 0;
+}
+.uum-login-Tuw .auto-group-ffbk-cH3 .image-9-vHj {
+  margin-right: 42rem;
+  width: 26.1rem;
+  height: 5.3rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.uum-login-Tuw .auto-group-ffbk-cH3 .frame-21-rhB {
+  margin: 1.3rem 0rem 1.2rem 0rem;
+  height: calc(100% - 2.5rem);
+  display: flex;
+  column-gap: 1.4rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.uum-login-Tuw .auto-group-ffbk-cH3 .frame-21-rhB .auto-group-2n5j-mp9 {
+  box-sizing: border-box;
+  padding: 0.2rem 0.9rem 0.3rem 0.9rem;
+  width: 17.6rem;
+  height: 100%;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.255;
+  color: #000000;
+  font-family: Arsenal, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #f7f7f7;
+  flex-shrink: 0;
+}
+.uum-login-Tuw .auto-group-ffbk-cH3 .frame-21-rhB .auto-group-akmf-Ehj {
+  box-sizing: border-box;
+  padding: 0.3rem 0.8rem 0.2rem 0.8rem;
+  width: 17.6rem;
+  height: 100%;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.255;
+  color: #aaaaaa;
+  font-family: Arsenal, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #f7f7f7;
+  flex-shrink: 0;
+}
+.uum-login-Tuw .auto-group-ffbk-cH3 .frame-21-rhB .group-18-XRw {
+  width: 7.2rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.255;
+  color: #ffffff;
+  font-family: Arsenal, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2a72b4;
+  flex-shrink: 0;
+}
+.forgot-password-RnD {
+  padding-left: 2%;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.255;
+  color: #faff04;
+  font-family: Arsenal, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.uum-login-Tuw .auto-group-ndxt-MQy {
+  width: 100%;
+  height: 162rem;
+  position: relative;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/image-10-bg-qMw.png');
+  flex-shrink: 0;
+}
+.uum-login-Tuw .auto-group-ndxt-MQy .rectangle-24-uSV {
+  width: 144rem;
+  height: 8.5rem;
+  position: absolute;
+  left: 0;
+  top: 153.5rem;
+  background-color: rgba(0, 0, 0, 0.6499999762);
+}
+.uum-login-Tuw .auto-group-ndxt-MQy .forgot-password-forgot-username-user-manual-for-staff-bahasa-or-english-user-manual-for-student-english-need-help-call-604-928-6666-6622-6644-or-email-itservicesuumedumy-copyright-2022-universiti-utara-malaysia-EDs {
+  width: 117.3rem;
+  height: 3.8rem;
+  position: absolute;
+  left: 13.3rem;
+  top: 155.9rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.255;
+  color: #ffffff;
+  font-family: Arsenal, 'Source Sans Pro';
+}
+.uum-login-Tuw .auto-group-ndxt-MQy .forgot-password-forgot-username-user-manual-for-staff-bahasa-or-english-user-manual-for-student-english-need-help-call-604-928-6666-6622-6644-or-email-itservicesuumedumy-copyright-2022-universiti-utara-malaysia-EDs .forgot-password-forgot-username-user-manual-for-staff-bahasa-or-english-user-manual-for-student-english-need-help-call-604-928-6666-6622-6644-or-email-itservicesuumedumy-copyright-2022-universiti-utara-malaysia-EDs-sub-0 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.255;
+  text-decoration-line: underline;
+  color: #ff0000;
+  font-family: Arsenal, 'Source Sans Pro';
+}
+
+.uum-login-Tuw .auto-group-ndxt-MQy .forgot-password-forgot-username-user-manual-for-staff-bahasa-or-english-user-manual-for-student-english-need-help-call-604-928-6666-6622-6644-or-email-itservicesuumedumy-copyright-2022-universiti-utara-malaysia-EDs .forgot-password-forgot-username-user-manual-for-staff-bahasa-or-english-user-manual-for-student-english-need-help-call-604-928-6666-6622-6644-or-email-itservicesuumedumy-copyright-2022-universiti-utara-malaysia-EDs-sub-2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.255;
+  color: #ff0000;
+  font-family: Arsenal, 'Source Sans Pro';
+}
+
+.uum-login-Tuw .auto-group-ndxt-MQy .forgot-password-forgot-username-user-manual-for-staff-bahasa-or-english-user-manual-for-student-english-need-help-call-604-928-6666-6622-6644-or-email-itservicesuumedumy-copyright-2022-universiti-utara-malaysia-EDs .forgot-password-forgot-username-user-manual-for-staff-bahasa-or-english-user-manual-for-student-english-need-help-call-604-928-6666-6622-6644-or-email-itservicesuumedumy-copyright-2022-universiti-utara-malaysia-EDs-sub-4 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.255;
+  color: #ff0000;
+  font-family: Arsenal, 'Source Sans Pro';
+}
+.uum-login-Tuw .auto-group-ndxt-MQy .forgot-password-forgot-username-user-manual-for-staff-bahasa-or-english-user-manual-for-student-english-need-help-call-604-928-6666-6622-6644-or-email-itservicesuumedumy-copyright-2022-universiti-utara-malaysia-EDs .forgot-password-forgot-username-user-manual-for-staff-bahasa-or-english-user-manual-for-student-english-need-help-call-604-928-6666-6622-6644-or-email-itservicesuumedumy-copyright-2022-universiti-utara-malaysia-EDs-sub-5 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.255;
+  color: #ffffff;
+  font-family: Arsenal, 'Source Sans Pro';
+}
+.uum-login-Tuw .auto-group-ndxt-MQy .forgot-password-forgot-username-user-manual-for-staff-bahasa-or-english-user-manual-for-student-english-need-help-call-604-928-6666-6622-6644-or-email-itservicesuumedumy-copyright-2022-universiti-utara-malaysia-EDs .forgot-password-forgot-username-user-manual-for-staff-bahasa-or-english-user-manual-for-student-english-need-help-call-604-928-6666-6622-6644-or-email-itservicesuumedumy-copyright-2022-universiti-utara-malaysia-EDs-sub-6 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.255;
+  color: #ff0000;
+  font-family: Arsenal, 'Source Sans Pro';
+}
+
+.uum-login-Tuw .auto-group-ndxt-MQy .forgot-password-forgot-username-user-manual-for-staff-bahasa-or-english-user-manual-for-student-english-need-help-call-604-928-6666-6622-6644-or-email-itservicesuumedumy-copyright-2022-universiti-utara-malaysia-EDs .forgot-password-forgot-username-user-manual-for-staff-bahasa-or-english-user-manual-for-student-english-need-help-call-604-928-6666-6622-6644-or-email-itservicesuumedumy-copyright-2022-universiti-utara-malaysia-EDs-sub-8 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.255;
+  color: #ff0000;
+  font-family: Arsenal, 'Source Sans Pro';
+}
+.uum-login-Tuw .auto-group-ndxt-MQy .forgot-password-forgot-username-user-manual-for-staff-bahasa-or-english-user-manual-for-student-english-need-help-call-604-928-6666-6622-6644-or-email-itservicesuumedumy-copyright-2022-universiti-utara-malaysia-EDs .forgot-password-forgot-username-user-manual-for-staff-bahasa-or-english-user-manual-for-student-english-need-help-call-604-928-6666-6622-6644-or-email-itservicesuumedumy-copyright-2022-universiti-utara-malaysia-EDs-sub-9 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.255;
+  color: #ffffff;
+  font-family: Arsenal, 'Source Sans Pro';
+}
+.uum-login-Tuw .auto-group-ndxt-MQy .forgot-password-forgot-username-user-manual-for-staff-bahasa-or-english-user-manual-for-student-english-need-help-call-604-928-6666-6622-6644-or-email-itservicesuumedumy-copyright-2022-universiti-utara-malaysia-EDs .forgot-password-forgot-username-user-manual-for-staff-bahasa-or-english-user-manual-for-student-english-need-help-call-604-928-6666-6622-6644-or-email-itservicesuumedumy-copyright-2022-universiti-utara-malaysia-EDs-sub-10 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.255;
+  color: #ff0000;
+  font-family: Arsenal, 'Source Sans Pro';
+}
+

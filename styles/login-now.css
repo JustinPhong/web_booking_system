@@ -1,0 +1,492 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.login-now-goX {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.1rem #000000;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+.login-now-goX .navi-peq {
+  width: 100%;
+  height: 21.6rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.login-now-goX .navi-peq .navi-yXj {
+  width: 144rem;
+  height: 15.4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #535353;
+}
+.login-now-goX .navi-peq .image-1-WnZ {
+  width: 40.5rem;
+  height: 13.6rem;
+  position: absolute;
+  left: 7.1rem;
+  top: 0.9rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.login-now-goX .navi-peq .rectangle-2-2W1 {
+  width: 144rem;
+  height: 6.5rem;
+  position: absolute;
+  left: 0;
+  top: 15.1rem;
+  background-color: #eac646;
+}
+.login-now-goX .navi-peq .group-1-mTb {
+  width: 52rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 86.3rem;
+  top: 6.5rem;
+  display: flex;
+  column-gap: 2.9rem;
+  align-items: center;
+}
+.login-now-goX .navi-peq .group-1-mTb .navigation-Gv9 {
+  width: 6.1rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #ffffff;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.login-now-goX .navi-peq .group-1-mTb .court-booking-mc1 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #eac646;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.login-now-goX .navi-peq .group-1-mTb .navigation-giy {
+  width: 10.9rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #ffffff;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.login-now-goX .navi-peq .group-1-mTb .navigation-zDs {
+  width: 10rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #ffffff;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.login-now-goX .navi-peq .booking-court-i9s {
+  width: 22.7rem;
+  height: 3.5rem;
+  position: absolute;
+  left: 60.7rem;
+  top: 16.6rem;
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #000000;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.login-now-goX .image-3-bjT {
+  margin-right: 0.1rem;
+  width: 123.1rem;
+  height: 57.8rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.login-now-goX .auto-group-iaah-Xt1 {
+  margin-bottom: 17.4rem;
+  width: 100%;
+  height: 90rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.login-now-goX .auto-group-iaah-Xt1 .rectangle-4-35f {
+  width: 144rem;
+  height: 12.3rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #eac646;
+}
+.login-now-goX .auto-group-iaah-Xt1 .rectangle-5-arH {
+  width: 124.6rem;
+  height: 83.5rem;
+  position: absolute;
+  left: 9.7rem;
+  top: 6.5rem;
+  box-shadow: 0.4rem 0.5rem 1.2rem rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+}
+.login-now-goX .auto-group-iaah-Xt1 .december-2023-Hkh {
+  width: 38.1rem;
+  height: 6.7rem;
+  position: absolute;
+  left: 19.8rem;
+  top: 12.3rem;
+  font-size: 5.3rem;
+  font-weight: 400;
+  line-height: 1.255;
+  color: #000000;
+  font-family: Arsenal, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.login-now-goX .auto-group-iaah-Xt1 .item--P33 {
+  width: 2rem;
+  height: 6.7rem;
+  cursor: pointer;
+  position: absolute;
+  left: 14.8rem;
+  top: 12.3rem;
+  font-size: 5.3rem;
+  font-weight: 400;
+  line-height: 1.255;
+  color: #000000;
+  font-family: Arsenal, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.login-now-goX .auto-group-iaah-Xt1 .am-9-00am-syo {
+  width: 15.3rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 19.8rem;
+  top: 18.9rem;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 1.255;
+  color: #000000;
+  font-family: Arsenal, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.login-now-goX .auto-group-iaah-Xt1 .image-4-z2q {
+  width: 24.1rem;
+  height: 48.9rem;
+  position: absolute;
+  left: 33.8rem;
+  top: 26.8rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.login-now-goX .auto-group-iaah-Xt1 .court-1-izR {
+  width: 6.3rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 42.7rem;
+  top: 76.7rem;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 1.255;
+  color: #000000;
+  font-family: Arsenal, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.login-now-goX .auto-group-iaah-Xt1 .rectangle-21-qp9 {
+  width: 32rem;
+  height: 6.3rem;
+  cursor: pointer;
+  position: absolute;
+  left: 78.8rem;
+  top: 42.8rem;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #eac646;
+}
+
+.login-now-goX .auto-group-iaah-Xt1 .rectangle-211-qp9 {
+  width: 32rem;
+  height: 6.3rem;
+  cursor: pointer;
+  position: absolute;
+  left: 78.8rem;
+  top: 42.8rem;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #eac646;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 1.255;
+  color: #000000;
+  font-family: Arsenal, 'Source Sans Pro';
+}
+
+.login-now-goX .auto-group-iaah-Xt1 .login-now-ZVF {
+  width: 11.1rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 89.3rem;
+  top: 44.6rem;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 1.255;
+  color: #000000;
+  font-family: Arsenal, 'Source Sans Pro';
+  white-space: nowrap;
+  z-index: 1;
+  
+}
+
+
+.login-now-goX .auto-group-iaah-Xt1 .rectangle-22-skq {
+  width: 32rem;
+  height: 6.3rem;
+  cursor: pointer;
+  position: absolute;
+  left: 78.8rem;
+  top: 53.4rem;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #535353;
+}
+.login-now-goX .auto-group-iaah-Xt1 .cancel-bgq {
+  width: 7.4rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 91.1rem;
+  top: 55.2rem;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 1.255;
+  color: #ffffff;
+  font-family: Arsenal, 'Source Sans Pro';
+  white-space: nowrap;
+  z-index: 1;
+}
+.login-now-goX .footer-K73 {
+  box-sizing: border-box;
+  padding: 2.7rem 5.8rem 5.1rem 11rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -3rem 1.3rem 1rem rgba(0, 0, 0, 0.25);
+  background-color: #3a3c45;
+  flex-shrink: 0;
+}
+.login-now-goX .footer-K73 .footer-3Yq {
+  margin: 0rem 5.1rem 3.6rem 0rem;
+  width: 63.5rem;
+  height: 12.4rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.login-now-goX .footer-K73 .auto-group-bxmt-xA1 {
+  width: 100%;
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.login-now-goX .footer-K73 .auto-group-bxmt-xA1 .sports-centre-universiti-utara-malaysia-06010-sintok-kedah-darul-aman-malaysia-604-928-3560-3551-pusuruumedumy--h7b {
+  margin: 0rem 7.7rem 5.2rem 0rem;
+  max-width: 34.6rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.1460000038;
+  letter-spacing: 0.1rem;
+  color: #ffffff;
+  font-family: Asap Condensed, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.login-now-goX .footer-K73 .auto-group-bxmt-xA1 .sports-centre-universiti-utara-malaysia-06010-sintok-kedah-darul-aman-malaysia-604-928-3560-3551-pusuruumedumy--h7b .sports-centre-universiti-utara-malaysia-06010-sintok-kedah-darul-aman-malaysia-604-928-3560-3551-pusuruumedumy--h7b-sub-0 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.255;
+  letter-spacing: 0.1rem;
+  color: #ffffff;
+  font-family: Arsenal, 'Source Sans Pro';
+}
+.login-now-goX .footer-K73 .auto-group-bxmt-xA1 .sports-centre-universiti-utara-malaysia-06010-sintok-kedah-darul-aman-malaysia-604-928-3560-3551-pusuruumedumy--h7b .sports-centre-universiti-utara-malaysia-06010-sintok-kedah-darul-aman-malaysia-604-928-3560-3551-pusuruumedumy--h7b-sub-1 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.255;
+  letter-spacing: 0.1rem;
+  color: #ffffff;
+  font-family: Arsenal, 'Source Sans Pro';
+}
+.login-now-goX .footer-K73 .auto-group-bxmt-xA1 .group-9-xbF {
+  margin-right: 11.8rem;
+  width: 37.5rem;
+  height: 100%;
+  row-gap: 1.2rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.login-now-goX .footer-K73 .auto-group-bxmt-xA1 .group-9-xbF .group-4-V5P {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #eac646;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #535353;
+  flex-shrink: 0;
+}
+.login-now-goX .footer-K73 .auto-group-bxmt-xA1 .group-9-xbF .group-5-PgZ {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #eac646;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #535353;
+  flex-shrink: 0;
+}
+.login-now-goX .footer-K73 .auto-group-bxmt-xA1 .group-9-xbF .group-4-K4R {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #eac646;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #535353;
+  flex-shrink: 0;
+}
+.login-now-goX .footer-K73 .auto-group-bxmt-xA1 .group-9-xbF .group-6-qHf {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #eac646;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #535353;
+  flex-shrink: 0;
+}
+.login-now-goX .footer-K73 .auto-group-bxmt-xA1 .group-9-xbF .group-7-9ZF {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #eac646;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d92020;
+  flex-shrink: 0;
+}
+.login-now-goX .footer-K73 .auto-group-bxmt-xA1 .group-9-xbF .group-8-sk9 {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #eac646;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3e4e9d;
+  flex-shrink: 0;
+}
+.login-now-goX .footer-K73 .auto-group-bxmt-xA1 .group-2-15f {
+  margin-bottom: 0.7rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1.8rem;
+  flex-shrink: 0;
+}
+.login-now-goX .footer-K73 .auto-group-bxmt-xA1 .group-2-15f .image-2-m4q {
+  margin-bottom: 1.6rem;
+  width: 35.6rem;
+  height: 25.1rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 1.8rem;
+  flex-shrink: 0;
+}
+.login-now-goX .footer-K73 .auto-group-bxmt-xA1 .group-2-15f .universiti-utara-malaysia-5bK {
+  margin-left: 0.1rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.255;
+  color: #ffffff;
+  font-family: Arsenal, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+disabled {
+    color: #ffffff;
+    background-color: #535353;
+}

@@ -1,0 +1,603 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.directory-PHo {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.1rem #000000;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+.directory-PHo .navi-umw {
+  margin-bottom: 3rem;
+  width: 100%;
+  height: 21.6rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.directory-PHo .navi-umw .navi-F57 {
+  width: 144rem;
+  height: 15.4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #535353;
+}
+.directory-PHo .navi-umw .image-1-nKw {
+  width: 40.5rem;
+  height: 13.6rem;
+  position: absolute;
+  left: 7.1rem;
+  top: 0.9rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.directory-PHo .navi-umw .rectangle-2-WWq {
+  width: 144rem;
+  height: 6.5rem;
+  position: absolute;
+  left: 0;
+  top: 15.1rem;
+  background-color: #eac646;
+}
+.directory-PHo .navi-umw .group-1-TBB {
+  width: 52rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 86.3rem;
+  top: 6.5rem;
+  display: flex;
+  column-gap: 2.9rem;
+  align-items: center;
+}
+.directory-PHo .navi-umw .group-1-TBB .navigation-ArH {
+  width: 6.1rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #ffffff;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.directory-PHo .navi-umw .group-1-TBB .navigation-5TT {
+  width: 16.3rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #ffffff;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.directory-PHo .navi-umw .group-1-TBB .navigation-n6y {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #eac646;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.directory-PHo .navi-umw .group-1-TBB .navigation-imK {
+  width: 10rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #ffffff;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.directory-PHo .navi-umw .directory-FFT {
+  width: 15.2rem;
+  height: 3.5rem;
+  position: absolute;
+  left: 64.4rem;
+  top: 16.6rem;
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #000000;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.directory-PHo .directors-office-LXo {
+  margin-left: 10.3rem;
+  font-size: 6.4rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.directory-PHo .auto-group-e4er-fKB {
+  box-sizing: border-box;
+  padding: 1rem 14.25rem 8rem 10.3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.directory-PHo .auto-group-e4er-fKB .auto-group-ivfb-mND {
+  margin: 0rem 46.85rem 1.1rem 0rem;
+  width: calc(100% - 46.85rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.directory-PHo .auto-group-e4er-fKB .auto-group-ivfb-mND .image-11-sg9 {
+  margin-right: 23.7rem;
+  width: 24.4rem;
+  height: 32rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.directory-PHo .auto-group-e4er-fKB .auto-group-ivfb-mND .image-12-DED {
+  width: 24.5rem;
+  height: 32rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.directory-PHo .auto-group-e4er-fKB .auto-group-crhw-kjw {
+  margin: 0rem 47.05rem 2.1rem 1.45rem;
+  width: calc(100% - 48.5rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.directory-PHo .auto-group-e4er-fKB .auto-group-crhw-kjw .dr-nasiruddin-bin-haron-director-of-sports-centre-nasir3780uumedumy-604-928-3550-HUy {
+  margin-right: 26.05rem;
+  max-width: 21rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2189999819;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.directory-PHo .auto-group-e4er-fKB .auto-group-crhw-kjw .dr-nasiruddin-bin-haron-director-of-sports-centre-nasir3780uumedumy-604-928-3550-HUy .dr-nasiruddin-bin-haron-director-of-sports-centre-nasir3780uumedumy-604-928-3550-HUy-sub-0 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+.directory-PHo .auto-group-e4er-fKB .auto-group-crhw-kjw .dr-nasiruddin-bin-haron-director-of-sports-centre-nasir3780uumedumy-604-928-3550-HUy .dr-nasiruddin-bin-haron-director-of-sports-centre-nasir3780uumedumy-604-928-3550-HUy-sub-1 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  text-decoration-line: underline;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+.directory-PHo .auto-group-e4er-fKB .auto-group-crhw-kjw .dr-nasiruddin-bin-haron-director-of-sports-centre-nasir3780uumedumy-604-928-3550-HUy .dr-nasiruddin-bin-haron-director-of-sports-centre-nasir3780uumedumy-604-928-3550-HUy-sub-2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+.directory-PHo .auto-group-e4er-fKB .auto-group-crhw-kjw .ku-aznita-binti-ku-bahahum-secretary-n29-kuaznitauumedumy-604-928-3551-3eV {
+  max-width: 23.9rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2189999819;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.directory-PHo .auto-group-e4er-fKB .auto-group-crhw-kjw .ku-aznita-binti-ku-bahahum-secretary-n29-kuaznitauumedumy-604-928-3551-3eV .ku-aznita-binti-ku-bahahum-secretary-n29-kuaznitauumedumy-604-928-3551-3eV-sub-0 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+.directory-PHo .auto-group-e4er-fKB .auto-group-crhw-kjw .ku-aznita-binti-ku-bahahum-secretary-n29-kuaznitauumedumy-604-928-3551-3eV .ku-aznita-binti-ku-bahahum-secretary-n29-kuaznitauumedumy-604-928-3551-3eV-sub-1 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  text-decoration-line: underline;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+.directory-PHo .auto-group-e4er-fKB .auto-group-crhw-kjw .ku-aznita-binti-ku-bahahum-secretary-n29-kuaznitauumedumy-604-928-3551-3eV .ku-aznita-binti-ku-bahahum-secretary-n29-kuaznitauumedumy-604-928-3551-3eV-sub-2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+.directory-PHo .auto-group-e4er-fKB .auto-group-yz9f-NCu {
+  margin-bottom: 1.1rem;
+  width: 96.4rem;
+  height: 39.2rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.directory-PHo .auto-group-e4er-fKB .auto-group-yz9f-NCu .image-13-i1s {
+  width: 23.7rem;
+  height: 32rem;
+  position: absolute;
+  left: 0.7rem;
+  top: 7.2rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.directory-PHo .auto-group-e4er-fKB .auto-group-yz9f-NCu .strategic-management-sector-SCm {
+  width: 96.4rem;
+  height: 7.8rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 6.4rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.directory-PHo .auto-group-e4er-fKB .auto-group-5vyh-8rH {
+  margin-bottom: 2rem;
+  width: 88.6rem;
+  height: 17.8rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.directory-PHo .auto-group-e4er-fKB .auto-group-5vyh-8rH .mohd-aizul-firdaus-bin-musa-youth-sports-officer-s44-maizuluumedumy-604-928-3567-5Wd {
+  width: 24.3rem;
+  height: 13.7rem;
+  position: absolute;
+  left: 0.85rem;
+  top: 0;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+
+.directory-PHo .auto-group-e4er-fKB .auto-group-5vyh-8rH .mohd-aizul-firdaus-bin-musa-youth-sports-officer-s44-maizuluumedumy-604-928-3567-5Wd .mohd-aizul-firdaus-bin-musa-youth-sports-officer-s44-maizuluumedumy-604-928-3567-5Wd-sub-1 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+
+.directory-PHo .auto-group-e4er-fKB .auto-group-5vyh-8rH .sports-development-sector-aLu {
+  width: 88.6rem;
+  height: 7.8rem;
+  position: absolute;
+  left: 0;
+  top: 10rem;
+  font-size: 6.4rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.directory-PHo .auto-group-e4er-fKB .auto-group-bstw-sau {
+  margin: 0rem 1.25rem 1.1rem 0.7rem;
+  width: calc(100% - 1.95rem);
+  display: flex;
+  column-gap: 23.2rem;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.directory-PHo .auto-group-e4er-fKB .auto-group-bstw-sau .image-14-aVK {
+  margin-top: 6rem;
+  width: 23.7rem;
+  height: 32rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.directory-PHo .auto-group-e4er-fKB .auto-group-bstw-sau .image-15-Wds {
+  margin-top: 6rem;
+  width: 23.7rem;
+  height: 32rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.directory-PHo .auto-group-e4er-fKB .auto-group-bstw-sau .image-16-eVB {
+  margin-top: 6rem;
+  width: 23.7rem;
+  height: 32rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.directory-PHo .auto-group-e4er-fKB .auto-group-capw-Phf {
+  margin-left: 1.25rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.directory-PHo .auto-group-e4er-fKB .auto-group-capw-Phf .zul-rusydi-bin-hussin-youth-sports-officer-s48-zulrusydiuumedumy-604-928-3554-k2R {
+  margin-right: 23.4rem;
+  max-width: 23.5rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+
+.directory-PHo .auto-group-e4er-fKB .auto-group-capw-Phf .zul-rusydi-bin-hussin-youth-sports-officer-s48-zulrusydiuumedumy-604-928-3554-k2R .zul-rusydi-bin-hussin-youth-sports-officer-s48-zulrusydiuumedumy-604-928-3554-k2R-sub-1 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  text-decoration-line: underline;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+
+.directory-PHo .auto-group-e4er-fKB .auto-group-capw-Phf .juhaina-binti-che-juhari-youth-sports-officer-s44-juhainauumedumy-604-928-3556-qi5 {
+  margin-right: 22.5rem;
+  max-width: 23.5rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+
+.directory-PHo .auto-group-e4er-fKB .auto-group-capw-Phf .juhaina-binti-che-juhari-youth-sports-officer-s44-juhainauumedumy-604-928-3556-qi5 .juhaina-binti-che-juhari-youth-sports-officer-s44-juhainauumedumy-604-928-3556-qi5-sub-1 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  text-decoration-line: underline;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+
+.directory-PHo .auto-group-e4er-fKB .auto-group-capw-Phf .siti-norlia-binti-mazlan-youth-sports-officer-s41-sitinorliamazlanuumedumy-604-928-3567-xRK {
+  max-width: 25.3rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+
+.directory-PHo .auto-group-e4er-fKB .auto-group-capw-Phf .siti-norlia-binti-mazlan-youth-sports-officer-s41-sitinorliamazlanuumedumy-604-928-3567-xRK .siti-norlia-binti-mazlan-youth-sports-officer-s41-sitinorliamazlanuumedumy-604-928-3567-xRK-sub-1 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  text-decoration-line: underline;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+
+.directory-PHo .footer-Hc1 {
+  box-sizing: border-box;
+  padding: 2.7rem 5.8rem 5.1rem 11rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -3rem 1.3rem 1rem rgba(0, 0, 0, 0.25);
+  background-color: #3a3c45;
+  flex-shrink: 0;
+}
+.directory-PHo .footer-Hc1 .footer-Cys {
+  margin: 0rem 5.1rem 3.6rem 0rem;
+  width: 63.5rem;
+  height: 12.4rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.directory-PHo .footer-Hc1 .auto-group-4ykh-jU1 {
+  width: 100%;
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.directory-PHo .footer-Hc1 .auto-group-4ykh-jU1 .sports-centre-universiti-utara-malaysia-06010-sintok-kedah-darul-aman-malaysia-604-928-3560-3551-pusuruumedumy--sq7 {
+  margin: 0rem 7.7rem 5.2rem 0rem;
+  max-width: 34.6rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.1460000038;
+  letter-spacing: 0.1rem;
+  color: #ffffff;
+  font-family: Asap Condensed, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.directory-PHo .footer-Hc1 .auto-group-4ykh-jU1 .sports-centre-universiti-utara-malaysia-06010-sintok-kedah-darul-aman-malaysia-604-928-3560-3551-pusuruumedumy--sq7 .sports-centre-universiti-utara-malaysia-06010-sintok-kedah-darul-aman-malaysia-604-928-3560-3551-pusuruumedumy--sq7-sub-0 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.255;
+  letter-spacing: 0.1rem;
+  color: #ffffff;
+  font-family: Arsenal, 'Source Sans Pro';
+}
+.directory-PHo .footer-Hc1 .auto-group-4ykh-jU1 .sports-centre-universiti-utara-malaysia-06010-sintok-kedah-darul-aman-malaysia-604-928-3560-3551-pusuruumedumy--sq7 .sports-centre-universiti-utara-malaysia-06010-sintok-kedah-darul-aman-malaysia-604-928-3560-3551-pusuruumedumy--sq7-sub-1 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.255;
+  letter-spacing: 0.1rem;
+  color: #ffffff;
+  font-family: Arsenal, 'Source Sans Pro';
+}
+.directory-PHo .footer-Hc1 .auto-group-4ykh-jU1 .group-9-hLH {
+  margin-right: 11.8rem;
+  width: 37.5rem;
+  height: 100%;
+  row-gap: 1.2rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.directory-PHo .footer-Hc1 .auto-group-4ykh-jU1 .group-9-hLH .group-4-ou7 {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #eac646;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #535353;
+  flex-shrink: 0;
+}
+.directory-PHo .footer-Hc1 .auto-group-4ykh-jU1 .group-9-hLH .group-5-KcZ {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #eac646;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #535353;
+  flex-shrink: 0;
+}
+.directory-PHo .footer-Hc1 .auto-group-4ykh-jU1 .group-9-hLH .group-4-EjX {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #eac646;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #535353;
+  flex-shrink: 0;
+}
+.directory-PHo .footer-Hc1 .auto-group-4ykh-jU1 .group-9-hLH .group-6-xQd {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #eac646;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #535353;
+  flex-shrink: 0;
+}
+.directory-PHo .footer-Hc1 .auto-group-4ykh-jU1 .group-9-hLH .group-7-GRK {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #eac646;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d92020;
+  flex-shrink: 0;
+}
+.directory-PHo .footer-Hc1 .auto-group-4ykh-jU1 .group-9-hLH .group-8-neZ {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.215;
+  color: #eac646;
+  font-family: B612, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3e4e9d;
+  flex-shrink: 0;
+}
+.directory-PHo .footer-Hc1 .auto-group-4ykh-jU1 .group-2-Jcu {
+  margin-bottom: 0.7rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1.8rem;
+  flex-shrink: 0;
+}
+.directory-PHo .footer-Hc1 .auto-group-4ykh-jU1 .group-2-Jcu .image-2-fTT {
+  margin-bottom: 1.6rem;
+  width: 35.6rem;
+  height: 25.1rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 1.8rem;
+  flex-shrink: 0;
+}
+.directory-PHo .footer-Hc1 .auto-group-4ykh-jU1 .group-2-Jcu .universiti-utara-malaysia-zVj {
+  margin-left: 0.1rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.255;
+  color: #ffffff;
+  font-family: Arsenal, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+a {
+  text-decoration: none;
+}
